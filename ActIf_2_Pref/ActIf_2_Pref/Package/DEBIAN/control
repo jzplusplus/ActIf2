@@ -1,0 +1,17 @@
+Package: jzplusplus.ActIf-2-Pref
+Name: ActIf_2_Pref
+Version: 0.1-1
+Description: 
+Section: PreferenceBundles
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: Jay Zuerndorfer
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: 
+Icon: 
+

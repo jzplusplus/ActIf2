@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[MainListViewController viewDidLoad]:MainListViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self.conditions description]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MainListViewController tableView:cellForRowAtIndexPath:]:MainListViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AIConditions saveToFile]:AIConditions.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.conditionsDict[@&quot;conditions&quot;][1][@&quot;id&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

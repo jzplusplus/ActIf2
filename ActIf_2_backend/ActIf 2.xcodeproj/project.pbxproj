@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BDB4C1E1D98978E0019E3C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDB4C1D1D98978E0019E3C1 /* Foundation.framework */; };
+		3BDB4C201D98978E0019E3C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDB4C1F1D98978E0019E3C1 /* UIKit.framework */; };
+		3BDB4C401D9898210019E3C1 /* libactivator.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDB4C3F1D9898210019E3C1 /* libactivator.dylib */; };
+		3BF6CD641EF74C4C00B70CF4 /* ActIf.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BF6CD4C1EF74C4C00B70CF4 /* ActIf.h */; };
+		3BF6CD651EF74C4C00B70CF4 /* ActIf_2_backend.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF6CD4D1EF74C4C00B70CF4 /* ActIf_2_backend.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BDB4C1A1D98978E0019E3C1 /* ActIf 2.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "ActIf 2.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BDB4C1D1D98978E0019E3C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3BDB4C1F1D98978E0019E3C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3BDB4C3F1D9898210019E3C1 /* libactivator.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libactivator.dylib; path = ../../../../../../opt/iOSOpenDev/lib/libactivator.dylib; sourceTree = "<group>"; };
+		3BF6CD351EF746B100B70CF4 /* BluetoothDeviceCondition.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = BluetoothDeviceCondition.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/ActIf2-chuanybphhrghpbpmqnybiztryde/Build/Products/Debug-iphoneos/BluetoothDeviceCondition.dylib"; sourceTree = "<group>"; };
+		3BF6CD361EF746B100B70CF4 /* ChargingCondition.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = ChargingCondition.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/ActIf2-chuanybphhrghpbpmqnybiztryde/Build/Products/Debug-iphoneos/ChargingCondition.dylib"; sourceTree = "<group>"; };
+		3BF6CD371EF746B100B70CF4 /* ForegroundAppCondition.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = ForegroundAppCondition.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/ActIf2-chuanybphhrghpbpmqnybiztryde/Build/Products/Debug-iphoneos/ForegroundAppCondition.dylib"; sourceTree = "<group>"; };
+		3BF6CD381EF746B100B70CF4 /* HeadphonesCondition.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = HeadphonesCondition.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/ActIf2-chuanybphhrghpbpmqnybiztryde/Build/Products/Debug-iphoneos/HeadphonesCondition.dylib"; sourceTree = "<group>"; };
+		3BF6CD391EF746B100B70CF4 /* MusicPlayingCondition.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = MusicPlayingCondition.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/ActIf2-chuanybphhrghpbpmqnybiztryde/Build/Products/Debug-iphoneos/MusicPlayingCondition.dylib"; sourceTree = "<group>"; };
+		3BF6CD3A1EF746B100B70CF4 /* MutedCondition.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = MutedCondition.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/ActIf2-chuanybphhrghpbpmqnybiztryde/Build/Products/Debug-iphoneos/MutedCondition.dylib"; sourceTree = "<group>"; };
+		3BF6CD3B1EF746B100B70CF4 /* OrientationCondition.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = OrientationCondition.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/ActIf2-chuanybphhrghpbpmqnybiztryde/Build/Products/Debug-iphoneos/OrientationCondition.dylib"; sourceTree = "<group>"; };
+		3BF6CD3C1EF746B100B70CF4 /* WifiConnectedCondition.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = WifiConnectedCondition.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/ActIf2-chuanybphhrghpbpmqnybiztryde/Build/Products/Debug-iphoneos/WifiConnectedCondition.dylib"; sourceTree = "<group>"; };
+		3BF6CD3D1EF746B100B70CF4 /* WifiNameCondition.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = WifiNameCondition.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/ActIf2-chuanybphhrghpbpmqnybiztryde/Build/Products/Debug-iphoneos/WifiNameCondition.dylib"; sourceTree = "<group>"; };
+		3BF6CD4C1EF74C4C00B70CF4 /* ActIf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActIf.h; sourceTree = "<group>"; };
+		3BF6CD4D1EF74C4C00B70CF4 /* ActIf_2_backend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActIf_2_backend.m; sourceTree = "<group>"; };
+		3BF6CD631EF74C4C00B70CF4 /* PackageVersion.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		3BF6CD721EF74DAF00B70CF4 /* ActIf 2.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = "ActIf 2.app"; sourceTree = "<group>"; };
+		3BF6CD741EF74DAF00B70CF4 /* control */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		3BF6CD781EF74DAF00B70CF4 /* BluetoothDeviceCondition.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = BluetoothDeviceCondition.dylib; sourceTree = "<group>"; };
+		3BF6CD791EF74DAF00B70CF4 /* ChargingCondition.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = ChargingCondition.dylib; sourceTree = "<group>"; };
+		3BF6CD7A1EF74DAF00B70CF4 /* ForegroundAppCondition.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = ForegroundAppCondition.dylib; sourceTree = "<group>"; };
+		3BF6CD7B1EF74DAF00B70CF4 /* HeadphonesCondition.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = HeadphonesCondition.dylib; sourceTree = "<group>"; };
+		3BF6CD7C1EF74DAF00B70CF4 /* MusicPlayingCondition.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = MusicPlayingCondition.dylib; sourceTree = "<group>"; };
+		3BF6CD7D1EF74DAF00B70CF4 /* MutedCondition.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = MutedCondition.dylib; sourceTree = "<group>"; };
+		3BF6CD7E1EF74DAF00B70CF4 /* OrientationCondition.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = OrientationCondition.dylib; sourceTree = "<group>"; };
+		3BF6CD7F1EF74DAF00B70CF4 /* WifiConnectedCondition.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = WifiConnectedCondition.dylib; sourceTree = "<group>"; };
+		3BF6CD801EF74DAF00B70CF4 /* WifiNameCondition.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = WifiNameCondition.dylib; sourceTree = "<group>"; };
+		3BF6CD831EF74DAF00B70CF4 /* ActIf 2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "ActIf 2.dylib"; sourceTree = "<group>"; };
+		3BF6CD841EF74DAF00B70CF4 /* ActIf 2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ActIf 2.plist"; sourceTree = "<group>"; };
+		3BF6CD851EF74DAF00B70CF4 /* ActIf_2_backend.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = ActIf_2_backend.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BDB4C161D98978E0019E3C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BDB4C401D9898210019E3C1 /* libactivator.dylib in Frameworks */,
+				3BDB4C1E1D98978E0019E3C1 /* Foundation.framework in Frameworks */,
+				3BDB4C201D98978E0019E3C1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BDB4C101D98978E0019E3C1 = {
+			isa = PBXGroup;
+			children = (
+				3BF6CD4B1EF74C4C00B70CF4 /* ActIf 2 */,
+				3BDB4C1C1D98978E0019E3C1 /* Frameworks */,
+				3BDB4C1B1D98978E0019E3C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BDB4C1B1D98978E0019E3C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BDB4C1A1D98978E0019E3C1 /* ActIf 2.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BDB4C1C1D98978E0019E3C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BF6CD351EF746B100B70CF4 /* BluetoothDeviceCondition.dylib */,
+				3BF6CD361EF746B100B70CF4 /* ChargingCondition.dylib */,
+				3BF6CD371EF746B100B70CF4 /* ForegroundAppCondition.dylib */,
+				3BF6CD381EF746B100B70CF4 /* HeadphonesCondition.dylib */,
+				3BF6CD391EF746B100B70CF4 /* MusicPlayingCondition.dylib */,
+				3BF6CD3A1EF746B100B70CF4 /* MutedCondition.dylib */,
+				3BF6CD3B1EF746B100B70CF4 /* OrientationCondition.dylib */,
+				3BF6CD3C1EF746B100B70CF4 /* WifiConnectedCondition.dylib */,
+				3BF6CD3D1EF746B100B70CF4 /* WifiNameCondition.dylib */,
+				3BDB4C3F1D9898210019E3C1 /* libactivator.dylib */,
+				3BDB4C1D1D98978E0019E3C1 /* Foundation.framework */,
+				3BDB4C1F1D98978E0019E3C1 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BF6CD4B1EF74C4C00B70CF4 /* ActIf 2 */ = {
+			isa = PBXGroup;
+			children = (
+				3BF6CD4C1EF74C4C00B70CF4 /* ActIf.h */,
+				3BF6CD4D1EF74C4C00B70CF4 /* ActIf_2_backend.m */,
+				3BF6CD631EF74C4C00B70CF4 /* PackageVersion.plist */,
+				3BF6CD701EF74DAF00B70CF4 /* Package */,
+			);
+			path = "ActIf 2";
+			sourceTree = "<group>";
+		};
+		3BF6CD701EF74DAF00B70CF4 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				3BF6CD711EF74DAF00B70CF4 /* Applications */,
+				3BF6CD731EF74DAF00B70CF4 /* DEBIAN */,
+				3BF6CD751EF74DAF00B70CF4 /* Library */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		3BF6CD711EF74DAF00B70CF4 /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				3BF6CD721EF74DAF00B70CF4 /* ActIf 2.app */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		3BF6CD731EF74DAF00B70CF4 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				3BF6CD741EF74DAF00B70CF4 /* control */,
+			);
+			path = DEBIAN;
+			sourceTree = "<group>";
+		};
+		3BF6CD751EF74DAF00B70CF4 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				3BF6CD761EF74DAF00B70CF4 /* ActIf */,
+				3BF6CD811EF74DAF00B70CF4 /* MobileSubstrate */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		3BF6CD761EF74DAF00B70CF4 /* ActIf */ = {
+			isa = PBXGroup;
+			children = (
+				3BF6CD771EF74DAF00B70CF4 /* Conditions */,
+			);
+			path = ActIf;
+			sourceTree = "<group>";
+		};
+		3BF6CD771EF74DAF00B70CF4 /* Conditions */ = {
+			isa = PBXGroup;
+			children = (
+				3BF6CD781EF74DAF00B70CF4 /* BluetoothDeviceCondition.dylib */,
+				3BF6CD791EF74DAF00B70CF4 /* ChargingCondition.dylib */,
+				3BF6CD7A1EF74DAF00B70CF4 /* ForegroundAppCondition.dylib */,
+				3BF6CD7B1EF74DAF00B70CF4 /* HeadphonesCondition.dylib */,
+				3BF6CD7C1EF74DAF00B70CF4 /* MusicPlayingCondition.dylib */,
+				3BF6CD7D1EF74DAF00B70CF4 /* MutedCondition.dylib */,
+				3BF6CD7E1EF74DAF00B70CF4 /* OrientationCondition.dylib */,
+				3BF6CD7F1EF74DAF00B70CF4 /* WifiConnectedCondition.dylib */,
+				3BF6CD801EF74DAF00B70CF4 /* WifiNameCondition.dylib */,
+			);
+			path = Conditions;
+			sourceTree = "<group>";
+		};
+		3BF6CD811EF74DAF00B70CF4 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				3BF6CD821EF74DAF00B70CF4 /* DynamicLibraries */,
+			);
+			path = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		3BF6CD821EF74DAF00B70CF4 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				3BF6CD831EF74DAF00B70CF4 /* ActIf 2.dylib */,
+				3BF6CD841EF74DAF00B70CF4 /* ActIf 2.plist */,
+				3BF6CD851EF74DAF00B70CF4 /* ActIf_2_backend.dylib */,
+			);
+			path = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3BDB4C171D98978E0019E3C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF6CD641EF74C4C00B70CF4 /* ActIf.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3BDB4C191D98978E0019E3C1 /* ActIf 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BDB4C361D98978F0019E3C1 /* Build configuration list for PBXNativeTarget "ActIf 2" */;
+			buildPhases = (
+				3BDB4C151D98978E0019E3C1 /* Sources */,
+				3BDB4C161D98978E0019E3C1 /* Frameworks */,
+				3BDB4C171D98978E0019E3C1 /* Headers */,
+				3BDB4C181D98978E0019E3C1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ActIf 2";
+			productName = ActIf_2_backend;
+			productReference = 3BDB4C1A1D98978E0019E3C1 /* ActIf 2.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BDB4C111D98978E0019E3C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				TargetAttributes = {
+					3BDB4C191D98978E0019E3C1 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3BDB4C141D98978E0019E3C1 /* Build configuration list for PBXProject "ActIf 2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3BDB4C101D98978E0019E3C1;
+			productRefGroup = 3BDB4C1B1D98978E0019E3C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BDB4C191D98978E0019E3C1 /* ActIf 2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BDB4C181D98978E0019E3C1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BDB4C151D98978E0019E3C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF6CD651EF74C4C00B70CF4 /* ActIf_2_backend.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3BDB4C341D98978F0019E3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		3BDB4C351D98978F0019E3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		3BDB4C371D98978F0019E3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		3BDB4C381D98978F0019E3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BDB4C141D98978E0019E3C1 /* Build configuration list for PBXProject "ActIf 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BDB4C341D98978F0019E3C1 /* Debug */,
+				3BDB4C351D98978F0019E3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BDB4C361D98978F0019E3C1 /* Build configuration list for PBXNativeTarget "ActIf 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BDB4C371D98978F0019E3C1 /* Debug */,
+				3BDB4C381D98978F0019E3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BDB4C111D98978E0019E3C1 /* Project object */;
+}

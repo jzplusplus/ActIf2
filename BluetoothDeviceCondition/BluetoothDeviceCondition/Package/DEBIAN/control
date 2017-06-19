@@ -1,0 +1,17 @@
+Package: jzplusplus.BluetoothDeviceCondition
+Name: BluetoothDeviceCondition
+Version: 1.0-1
+Description: 
+Section: System
+Depends: firmware (>= 9.0), jzplusplus.ActIf-2-backend
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: Jay Zuerndorfer
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: 
+Icon: 
+

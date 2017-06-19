@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B64994B1E11D2E300379B3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B64994A1E11D2E300379B3A /* Foundation.framework */; };
+		3B64994D1E11D2E300379B3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B64994C1E11D2E300379B3A /* UIKit.framework */; };
+		3B6499561E11D2E300379B3A /* WifiNameCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6499551E11D2E300379B3A /* WifiNameCondition.m */; };
+		3B6499581E11D2E300379B3A /* ActIf.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6499571E11D2E300379B3A /* ActIf.h */; };
+		3B64995F1E11D58600379B3A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B64995E1E11D58600379B3A /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B6499471E11D2E300379B3A /* WifiNameCondition.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = WifiNameCondition.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B64994A1E11D2E300379B3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3B64994C1E11D2E300379B3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3B6499521E11D2E300379B3A /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		3B6499541E11D2E300379B3A /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		3B6499551E11D2E300379B3A /* WifiNameCondition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WifiNameCondition.m; sourceTree = "<group>"; };
+		3B6499571E11D2E300379B3A /* ActIf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActIf.h; sourceTree = "<group>"; };
+		3B64995E1E11D58600379B3A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B6499431E11D2E300379B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B64995F1E11D58600379B3A /* SystemConfiguration.framework in Frameworks */,
+				3B64994B1E11D2E300379B3A /* Foundation.framework in Frameworks */,
+				3B64994D1E11D2E300379B3A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B64993D1E11D2E300379B3A = {
+			isa = PBXGroup;
+			children = (
+				3B64994E1E11D2E300379B3A /* WifiNameCondition */,
+				3B6499491E11D2E300379B3A /* Frameworks */,
+				3B6499481E11D2E300379B3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B6499481E11D2E300379B3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B6499471E11D2E300379B3A /* WifiNameCondition.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B6499491E11D2E300379B3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B64995E1E11D58600379B3A /* SystemConfiguration.framework */,
+				3B64994A1E11D2E300379B3A /* Foundation.framework */,
+				3B64994C1E11D2E300379B3A /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B64994E1E11D2E300379B3A /* WifiNameCondition */ = {
+			isa = PBXGroup;
+			children = (
+				3B6499551E11D2E300379B3A /* WifiNameCondition.m */,
+				3B6499571E11D2E300379B3A /* ActIf.h */,
+				3B64994F1E11D2E300379B3A /* Package */,
+				3B6499531E11D2E300379B3A /* Supporting Files */,
+			);
+			path = WifiNameCondition;
+			sourceTree = "<group>";
+		};
+		3B64994F1E11D2E300379B3A /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				3B6499501E11D2E300379B3A /* DEBIAN */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		3B6499501E11D2E300379B3A /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				3B6499521E11D2E300379B3A /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		3B6499531E11D2E300379B3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B6499541E11D2E300379B3A /* PackageVersion.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3B6499441E11D2E300379B3A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6499581E11D2E300379B3A /* ActIf.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3B6499461E11D2E300379B3A /* WifiNameCondition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B64995B1E11D2E300379B3A /* Build configuration list for PBXNativeTarget "WifiNameCondition" */;
+			buildPhases = (
+				3B6499421E11D2E300379B3A /* Sources */,
+				3B6499431E11D2E300379B3A /* Frameworks */,
+				3B6499441E11D2E300379B3A /* Headers */,
+				3B6499451E11D2E300379B3A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WifiNameCondition;
+			productName = WifiNameCondition;
+			productReference = 3B6499471E11D2E300379B3A /* WifiNameCondition.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B64993E1E11D2E300379B3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					3B6499461E11D2E300379B3A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3B6499411E11D2E300379B3A /* Build configuration list for PBXProject "WifiNameCondition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3B64993D1E11D2E300379B3A;
+			productRefGroup = 3B6499481E11D2E300379B3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B6499461E11D2E300379B3A /* WifiNameCondition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B6499451E11D2E300379B3A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B6499421E11D2E300379B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6499561E11D2E300379B3A /* WifiNameCondition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3B6499591E11D2E300379B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		3B64995A1E11D2E300379B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		3B64995C1E11D2E300379B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				INSTALL_PATH = /Library/ActIf/Conditions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		3B64995D1E11D2E300379B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				INSTALL_PATH = /Library/ActIf/Conditions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B6499411E11D2E300379B3A /* Build configuration list for PBXProject "WifiNameCondition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6499591E11D2E300379B3A /* Debug */,
+				3B64995A1E11D2E300379B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B64995B1E11D2E300379B3A /* Build configuration list for PBXNativeTarget "WifiNameCondition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B64995C1E11D2E300379B3A /* Debug */,
+				3B64995D1E11D2E300379B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B64993E1E11D2E300379B3A /* Project object */;
+}

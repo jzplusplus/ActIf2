@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B6499D11E11EB4B00379B3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B6499D01E11EB4B00379B3A /* Foundation.framework */; };
+		3B6499DC1E11EB4B00379B3A /* HeadphonesCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6499DB1E11EB4B00379B3A /* HeadphonesCondition.m */; };
+		3B6499DE1E11EB4B00379B3A /* ActIf.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6499DD1E11EB4B00379B3A /* ActIf.h */; };
+		3B6499E51E11EC4D00379B3A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B6499E41E11EC4D00379B3A /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B6499CD1E11EB4B00379B3A /* HeadphonesCondition.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = HeadphonesCondition.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6499D01E11EB4B00379B3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3B6499D21E11EB4B00379B3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3B6499D71E11EB4B00379B3A /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		3B6499D81E11EB4B00379B3A /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		3B6499DA1E11EB4B00379B3A /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		3B6499DB1E11EB4B00379B3A /* HeadphonesCondition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadphonesCondition.m; sourceTree = "<group>"; };
+		3B6499DD1E11EB4B00379B3A /* ActIf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActIf.h; sourceTree = "<group>"; };
+		3B6499E41E11EC4D00379B3A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B6499C91E11EB4B00379B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6499E51E11EC4D00379B3A /* AVFoundation.framework in Frameworks */,
+				3B6499D11E11EB4B00379B3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B6499C31E11EB4B00379B3A = {
+			isa = PBXGroup;
+			children = (
+				3B6499D41E11EB4B00379B3A /* HeadphonesCondition */,
+				3B6499CF1E11EB4B00379B3A /* Frameworks */,
+				3B6499CE1E11EB4B00379B3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B6499CE1E11EB4B00379B3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B6499CD1E11EB4B00379B3A /* HeadphonesCondition.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B6499CF1E11EB4B00379B3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B6499E41E11EC4D00379B3A /* AVFoundation.framework */,
+				3B6499D01E11EB4B00379B3A /* Foundation.framework */,
+				3B6499D21E11EB4B00379B3A /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B6499D41E11EB4B00379B3A /* HeadphonesCondition */ = {
+			isa = PBXGroup;
+			children = (
+				3B6499DB1E11EB4B00379B3A /* HeadphonesCondition.m */,
+				3B6499DD1E11EB4B00379B3A /* ActIf.h */,
+				3B6499D51E11EB4B00379B3A /* Package */,
+				3B6499D91E11EB4B00379B3A /* Supporting Files */,
+			);
+			path = HeadphonesCondition;
+			sourceTree = "<group>";
+		};
+		3B6499D51E11EB4B00379B3A /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				3B6499D61E11EB4B00379B3A /* DEBIAN */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		3B6499D61E11EB4B00379B3A /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				3B6499D71E11EB4B00379B3A /* control.txt */,
+				3B6499D81E11EB4B00379B3A /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		3B6499D91E11EB4B00379B3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B6499DA1E11EB4B00379B3A /* PackageVersion.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3B6499CA1E11EB4B00379B3A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6499DE1E11EB4B00379B3A /* ActIf.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3B6499CC1E11EB4B00379B3A /* HeadphonesCondition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6499E11E11EB4B00379B3A /* Build configuration list for PBXNativeTarget "HeadphonesCondition" */;
+			buildPhases = (
+				3B6499C81E11EB4B00379B3A /* Sources */,
+				3B6499C91E11EB4B00379B3A /* Frameworks */,
+				3B6499CA1E11EB4B00379B3A /* Headers */,
+				3B6499CB1E11EB4B00379B3A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeadphonesCondition;
+			productName = HeadphonesCondition;
+			productReference = 3B6499CD1E11EB4B00379B3A /* HeadphonesCondition.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B6499C41E11EB4B00379B3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					3B6499CC1E11EB4B00379B3A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3B6499C71E11EB4B00379B3A /* Build configuration list for PBXProject "HeadphonesCondition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3B6499C31E11EB4B00379B3A;
+			productRefGroup = 3B6499CE1E11EB4B00379B3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B6499CC1E11EB4B00379B3A /* HeadphonesCondition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B6499CB1E11EB4B00379B3A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B6499C81E11EB4B00379B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6499DC1E11EB4B00379B3A /* HeadphonesCondition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3B6499DF1E11EB4B00379B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		3B6499E01E11EB4B00379B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		3B6499E21E11EB4B00379B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				INSTALL_PATH = /Library/ActIf/Conditions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		3B6499E31E11EB4B00379B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				INSTALL_PATH = /Library/ActIf/Conditions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B6499C71E11EB4B00379B3A /* Build configuration list for PBXProject "HeadphonesCondition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6499DF1E11EB4B00379B3A /* Debug */,
+				3B6499E01E11EB4B00379B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B6499E11E11EB4B00379B3A /* Build configuration list for PBXNativeTarget "HeadphonesCondition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6499E21E11EB4B00379B3A /* Debug */,
+				3B6499E31E11EB4B00379B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B6499C41E11EB4B00379B3A /* Project object */;
+}

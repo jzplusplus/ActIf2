@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B552ABE1DA37AC30090DE3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B552ABD1DA37AC30090DE3D /* Foundation.framework */; };
+		3B552AC01DA37AC30090DE3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B552ABF1DA37AC30090DE3D /* UIKit.framework */; };
+		3B552AC91DA37AC30090DE3D /* ForegroundAppCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B552AC81DA37AC30090DE3D /* ForegroundAppCondition.m */; };
+		3B552ADA1DA37B190090DE3D /* ActIf.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B552AD91DA37B190090DE3D /* ActIf.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B552ABA1DA37AC30090DE3D /* ForegroundAppCondition.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = ForegroundAppCondition.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B552ABD1DA37AC30090DE3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3B552ABF1DA37AC30090DE3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3B552AC51DA37AC30090DE3D /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		3B552AC71DA37AC30090DE3D /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		3B552AC81DA37AC30090DE3D /* ForegroundAppCondition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForegroundAppCondition.m; sourceTree = "<group>"; };
+		3B552AD91DA37B190090DE3D /* ActIf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActIf.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B552AB61DA37AC30090DE3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B552ABE1DA37AC30090DE3D /* Foundation.framework in Frameworks */,
+				3B552AC01DA37AC30090DE3D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B552AB01DA37AC30090DE3D = {
+			isa = PBXGroup;
+			children = (
+				3B552AC11DA37AC30090DE3D /* ForegroundAppCondition */,
+				3B552ABC1DA37AC30090DE3D /* Frameworks */,
+				3B552ABB1DA37AC30090DE3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B552ABB1DA37AC30090DE3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B552ABA1DA37AC30090DE3D /* ForegroundAppCondition.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B552ABC1DA37AC30090DE3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B552ABD1DA37AC30090DE3D /* Foundation.framework */,
+				3B552ABF1DA37AC30090DE3D /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B552AC11DA37AC30090DE3D /* ForegroundAppCondition */ = {
+			isa = PBXGroup;
+			children = (
+				3B552AD91DA37B190090DE3D /* ActIf.h */,
+				3B552AC81DA37AC30090DE3D /* ForegroundAppCondition.m */,
+				3B552AC21DA37AC30090DE3D /* Package */,
+				3B552AC61DA37AC30090DE3D /* Supporting Files */,
+			);
+			path = ForegroundAppCondition;
+			sourceTree = "<group>";
+		};
+		3B552AC21DA37AC30090DE3D /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				3B552AC31DA37AC30090DE3D /* DEBIAN */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		3B552AC31DA37AC30090DE3D /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				3B552AC51DA37AC30090DE3D /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		3B552AC61DA37AC30090DE3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B552AC71DA37AC30090DE3D /* PackageVersion.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3B552AB71DA37AC30090DE3D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B552ADA1DA37B190090DE3D /* ActIf.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3B552AB91DA37AC30090DE3D /* ForegroundAppCondition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B552AD61DA37AC30090DE3D /* Build configuration list for PBXNativeTarget "ForegroundAppCondition" */;
+			buildPhases = (
+				3B552AB51DA37AC30090DE3D /* Sources */,
+				3B552AB61DA37AC30090DE3D /* Frameworks */,
+				3B552AB71DA37AC30090DE3D /* Headers */,
+				3B552AB81DA37AC30090DE3D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForegroundAppCondition;
+			productName = ForegroundAppCondition;
+			productReference = 3B552ABA1DA37AC30090DE3D /* ForegroundAppCondition.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B552AB11DA37AC30090DE3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				TargetAttributes = {
+					3B552AB91DA37AC30090DE3D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3B552AB41DA37AC30090DE3D /* Build configuration list for PBXProject "ForegroundAppCondition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3B552AB01DA37AC30090DE3D;
+			productRefGroup = 3B552ABB1DA37AC30090DE3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B552AB91DA37AC30090DE3D /* ForegroundAppCondition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B552AB81DA37AC30090DE3D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B552AB51DA37AC30090DE3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B552AC91DA37AC30090DE3D /* ForegroundAppCondition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3B552AD41DA37AC30090DE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		3B552AD51DA37AC30090DE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		3B552AD71DA37AC30090DE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				INSTALL_PATH = /Library/ActIf/Conditions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		3B552AD81DA37AC30090DE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				INSTALL_PATH = /Library/ActIf/Conditions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B552AB41DA37AC30090DE3D /* Build configuration list for PBXProject "ForegroundAppCondition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B552AD41DA37AC30090DE3D /* Debug */,
+				3B552AD51DA37AC30090DE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B552AD61DA37AC30090DE3D /* Build configuration list for PBXNativeTarget "ForegroundAppCondition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B552AD71DA37AC30090DE3D /* Debug */,
+				3B552AD81DA37AC30090DE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B552AB11DA37AC30090DE3D /* Project object */;
+}

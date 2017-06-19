@@ -1,0 +1,17 @@
+Package: jzplusplus.ActIf-2
+Name: ActIf 2
+Version: 1.0-1
+Description: 
+Section: System
+Depends: firmware (>= 9.0), mobilesubstrate, libactivator
+Conflicts:
+Replaces: org.bigboss.actif
+Priority: optional
+Architecture: iphoneos-arm
+Author: Jay Zuerndorfer
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: 
+Icon: 
+
