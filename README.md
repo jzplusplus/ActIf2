@@ -3,7 +3,7 @@
 Allows you to use conditionals with Activator
 Available on the BigBoss repo in Cydia
 
-#Detailed Explanation
+# Detailed Explanation
 Normally with Activator, you set up listeners and actions. Listeners are triggered by a certain user action or event, like triple-clicking the home button or opening an app. Actions cause something to happen, like opening up Siri or changing your music to the next track. Each listener can be connected to an action so that you can tell your device what to do. E.g. "when I press both volume buttons, turn the flashlight on".
 
 The normal path for an Activator event is "listener -> action".
@@ -12,7 +12,7 @@ ActIf adds conditionals to the mix. These conditionals check something about the
 
 Conditionals act as a branching path for Activator events. Instead of "listener -> action", you now have "listener -> conditional" plus "conditional passed -> action" and "conditional failed -> action".
 
-#Example config
+# Example config
 Let's say you want "triple-click home button" to open up a music app. When you're on wifi you want it to open Spotify, but when you're not on wifi you want it to open the Music app
 1. Open ActIf 2 app
 2. Tap +, tap the empty condition box, tap WifiConnectedCondtition
