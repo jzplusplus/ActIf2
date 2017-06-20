@@ -1,0 +1,116 @@
+BCSymbolMap Version: 2.0
++[AIConditions sharedInstance]
+___30+[AIConditions sharedInstance]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[AIConditions conditionTypes]
+-[AIConditions loadFromFile]
+-[AIConditions saveToFile]
+-[AIConditions count]
+-[AIConditions conditionForIndex:]
+-[AIConditions updateCondition:ForIndex:]
+-[AIConditions addCondition]
+-[AIConditions removeConditionAtIndex:]
+-[AIConditions conditionsDict]
+-[AIConditions setConditionsDict:]
+-[AIConditions .cxx_destruct]
+_sharedInstance.p
+_sharedInstance._sharedObject
+___block_descriptor_tmp
+_OBJC_IVAR_$_AIConditions._conditionsDict
+_OBJC_METACLASS_$_AIConditions
+_OBJC_CLASS_$_AIConditions
+Apple LLVM version 8.1.0 (clang-802.0.42)
+/Users/jzplusplus/Documents/jailbreak/ActIf 2/ActIf 2/AIConditions.m
+/Users/jzplusplus/Documents/jailbreak/ActIf 2
+__destroy_helper_block_
+__copy_helper_block_
+__30+[AIConditions sharedInstance]_block_invoke
+_dispatch_once
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/usr/include/dispatch/once.h
+-[AppDelegate application:didFinishLaunchingWithOptions:]
+-[AppDelegate applicationWillResignActive:]
+-[AppDelegate applicationDidEnterBackground:]
+-[AppDelegate applicationWillEnterForeground:]
+-[AppDelegate applicationDidBecomeActive:]
+-[AppDelegate applicationWillTerminate:]
+-[AppDelegate window]
+-[AppDelegate setWindow:]
+-[AppDelegate .cxx_destruct]
+_OBJC_IVAR_$_AppDelegate._window
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_UIApplicationDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIApplicationDelegate
+_OBJC_METACLASS_$_AppDelegate
+_OBJC_CLASS_$_AppDelegate
+/Users/jzplusplus/Documents/jailbreak/ActIf 2/ActIf 2/AppDelegate.m
+/Users/jzplusplus/Documents/jailbreak/ActIf 2/ActIf 2/AppDelegate.h
+-[ConditionDetailViewController viewDidLoad]
+-[ConditionDetailViewController viewWillAppear:]
+-[ConditionDetailViewController viewWillDisappear:]
+-[ConditionDetailViewController prepareForSegue:sender:]
+-[ConditionDetailViewController numberOfSectionsInTableView:]
+-[ConditionDetailViewController tableView:titleForHeaderInSection:]
+-[ConditionDetailViewController textFieldShouldReturn:]
+-[ConditionDetailViewController index]
+-[ConditionDetailViewController setIndex:]
+-[ConditionDetailViewController conditionTypeLabel]
+-[ConditionDetailViewController setConditionTypeLabel:]
+-[ConditionDetailViewController paramTextField]
+-[ConditionDetailViewController setParamTextField:]
+-[ConditionDetailViewController condition]
+-[ConditionDetailViewController setCondition:]
+-[ConditionDetailViewController parameterName]
+-[ConditionDetailViewController setParameterName:]
+-[ConditionDetailViewController .cxx_destruct]
+_OBJC_CLASS_$_ConditionDetailViewController
+_OBJC_IVAR_$_ConditionDetailViewController._index
+_OBJC_IVAR_$_ConditionDetailViewController._conditionTypeLabel
+_OBJC_IVAR_$_ConditionDetailViewController._paramTextField
+_OBJC_IVAR_$_ConditionDetailViewController._condition
+_OBJC_IVAR_$_ConditionDetailViewController._parameterName
+l_OBJC_PROTOCOL_$_UITextFieldDelegate
+l_OBJC_LABEL_PROTOCOL_$_UITextFieldDelegate
+_OBJC_METACLASS_$_ConditionDetailViewController
+/Users/jzplusplus/Documents/jailbreak/ActIf 2/ActIf 2/ConditionDetailViewController.m
+/Users/jzplusplus/Documents/jailbreak/ActIf 2/ActIf 2/ConditionDetailViewController.h
+/Users/jzplusplus/Documents/jailbreak/ActIf 2/ActIf 2/main.m
+main
+-[ConditionTypeViewController viewDidLoad]
+-[ConditionTypeViewController numberOfSectionsInTableView:]
+-[ConditionTypeViewController tableView:numberOfRowsInSection:]
+-[ConditionTypeViewController tableView:cellForRowAtIndexPath:]
+-[ConditionTypeViewController tableView:didSelectRowAtIndexPath:]
+-[ConditionTypeViewController tableView:didDeselectRowAtIndexPath:]
+-[ConditionTypeViewController index]
+-[ConditionTypeViewController setIndex:]
+-[ConditionTypeViewController conditionTypes]
+-[ConditionTypeViewController setConditionTypes:]
+-[ConditionTypeViewController condition]
+-[ConditionTypeViewController setCondition:]
+-[ConditionTypeViewController .cxx_destruct]
+_OBJC_CLASS_$_ConditionTypeViewController
+_OBJC_IVAR_$_ConditionTypeViewController._index
+_OBJC_IVAR_$_ConditionTypeViewController._conditionTypes
+_OBJC_IVAR_$_ConditionTypeViewController._condition
+l_OBJC_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_PROTOCOL_$_UITableViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UITableViewDelegate
+_OBJC_METACLASS_$_ConditionTypeViewController
+/Users/jzplusplus/Documents/jailbreak/ActIf 2/ActIf 2/ConditionTypeViewController.m
+/Users/jzplusplus/Documents/jailbreak/ActIf 2/ActIf 2/ConditionTypeViewController.h
+-[MainListViewController viewDidLoad]
+-[MainListViewController viewWillAppear:]
+-[MainListViewController numberOfSectionsInTableView:]
+-[MainListViewController tableView:numberOfRowsInSection:]
+-[MainListViewController tableView:titleForHeaderInSection:]
+-[MainListViewController tableView:cellForRowAtIndexPath:]
+-[MainListViewController tableView:canEditRowAtIndexPath:]
+-[MainListViewController tableView:commitEditingStyle:forRowAtIndexPath:]
+-[MainListViewController prepareForSegue:sender:]
+-[MainListViewController tableView:didSelectRowAtIndexPath:]
+_OBJC_CLASS_$_MainListViewController
+_OBJC_METACLASS_$_MainListViewController
+/Users/jzplusplus/Documents/jailbreak/ActIf 2/ActIf 2/MainListViewController.m

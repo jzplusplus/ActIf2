@@ -1,6 +1,6 @@
 Package: jzplusplus.ActIf-2
 Name: ActIf 2
-Version: 1.0-1
+Version: 1.1-1
 Description: 
 Section: System
 Depends: firmware (>= 9.0), mobilesubstrate, libactivator

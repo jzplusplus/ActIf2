@@ -33,14 +33,28 @@
 }
 
 - (void)loadFromFile {
-    if (![[NSFileManager defaultManager] fileExistsAtPath:@"/Library/ActIf/conditions.plist"]){
-        [@{@"conditions": @[]} writeToFile:@"/Library/ActIf/conditions.plist" atomically:YES];
+    if (![[NSFileManager defaultManager] fileExistsAtPath:@"/var/mobile/Library/conditions.plist"]){
+        [@{@"conditions": @[]} writeToFile:@"/var/mobile/Library/conditions.plist" atomically:YES];
     }
-    self.conditionsDict = [NSMutableDictionary dictionaryWithContentsOfFile:@"/Library/ActIf/conditions.plist"];
+    self.conditionsDict = [NSMutableDictionary dictionaryWithContentsOfFile:@"/var/mobile/Library/conditions.plist"];
+    
+//    NSDictionary* dict = [[NSUserDefaults standardUserDefaults] dictionaryForKey:@"conditions"];
+//    if(dict) {
+//        self.conditionsDict = [dict mutableCopy];
+//    }
+//    else {
+//        self.conditionsDict = [NSMutableDictionary dictionary];
+//    }
+    NSLog(@"Loaded conditions");
 }
 
 - (void)saveToFile {
-    NSLog(@"Write succeded: %d", [self.conditionsDict writeToFile:@"/Library/ActIf/conditions.plist" atomically:YES]);
+//    [[NSUserDefaults standardUserDefaults] setObject:self.conditionsDict forKey:@"conditions"];
+//    NSLog(@"Saved conditions");
+    
+    int ret = [self.conditionsDict writeToFile:@"/var/mobile/Library/conditions.plist" atomically:YES];
+    NSLog(@"Saved conditions: %d", ret);
+    
 }
 
 - (NSInteger)count {
